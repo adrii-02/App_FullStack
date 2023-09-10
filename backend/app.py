@@ -68,7 +68,7 @@ register_tortoise(
                         'host': 'localhost',
                         'port': '3306',
                         'user': 'root',
-                        'password': '@Q7wG6#1$HJ4$',
+                        'password': 'contraseña',
                         'database': 'fullstacks',
                     }  
                 }

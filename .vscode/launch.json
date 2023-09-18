@@ -1,0 +1,28 @@
+    {
+        // Use IntelliSense to learn about possible attributes.
+        // Hover to view descriptions of existing attributes.
+        // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "Python: FastAPI",
+                "type": "python",
+                "request": "launch",
+                "module": "uvicorn",
+                "env": {
+                    "db_username": "root",
+                    "db_password": "@Q7wG6#1$HJ4$",
+                    "host_server": "localhost",
+                    "database_name": "fullstack",
+                    "ssl_mode": "prefer",
+                    "db_server_port": "3306"
+                },
+                "args": [
+                    "main:app",
+                    "--reload",
+                    "--port",
+                    "8000"
+                ]
+            }
+        ]
+    }

@@ -1,7 +1,7 @@
 '''
 Tener instalado Tortoise ORM.
 El comando que he utilizado para instalarlo es: py -m pip install tortoise-orm
-'''
+
 from tortoise.models import Model
 from tortoise import fields, models
 from tortoise.contrib.pydantic import pydantic_model_creator
@@ -12,3 +12,4 @@ class Role(Model):
 
 role_pydantic = pydantic_model_creator(Role, name="roles")
 role_pydanticIn = pydantic_model_creator(Role, name="rolesIn", exclude_readonly=True)
+'''

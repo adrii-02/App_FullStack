@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from tortoise import Tortoise
 from tortoise.contrib.fastapi import register_tortoise
 from app import app
@@ -35,6 +35,14 @@ register_tortoise(
         }
 )
 # Using a DB_URL string -> 'default': f'mysql://root:{urlparse("@Q7wG6#1$HJ4$")}@localhost:3306/fullstacks'
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],  # Permitir cualquier origen
+    allow_credentials=True,
+    allow_methods=["*"],  # Permitir cualquier método de solicitud (GET, POST, etc.)
+    allow_headers=["*"],  # Permitir cualquier encabezado en la solicitud
+)
 
 Tortoise.generate_schemas()
 

@@ -1,4 +1,4 @@
-# App_FullStack
+# App_FullStack (Proyecto Pausado)
 
 Esta aplicación se encuentra en desarrollo y tiene como propósito principal la aplicación de conocimientos para aprender a lo largo de su desarrollo. A continuación, se proporciona una breve descripción de los componentes clave de esta aplicación.
 

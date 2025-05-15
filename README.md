@@ -31,9 +31,3 @@ Si deseas contribuir al desarrollo de esta aplicación o probarla localmente, si
 2. Instala las dependencias del backend y frontend según sea necesario.
 3. Configura la base de datos, si es aplicable, y realiza las migraciones necesarias.
 4. Ejecuta el backend y frontend de la aplicación en entornos de desarrollo.
-
-## Contacto
-
-Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con el equipo de desarrollo a través de adrian.garcilop@gmail.com.
-
-Agradecemos tu interés en la aplicación App_FullStack y esperamos que sea una experiencia valiosa para aprender y desarrollar tus habilidades en desarrollo web de pila completa.
